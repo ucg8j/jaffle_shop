@@ -66,4 +66,6 @@ final as (
 
 )
 
-select * from final
+select *,
+customer_lifetime_value*0.56 AS customer_lifetime_value_gbp 
+ from final
