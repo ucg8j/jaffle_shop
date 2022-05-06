@@ -15,6 +15,7 @@ payments as (
 order_payments as (
 
     select
+    
         order_id,
 
         {% for payment_method in payment_methods -%}
