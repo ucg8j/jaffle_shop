@@ -1,5 +1,12 @@
 version: 2
 
+sources:
+  - name: csv
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
+
 models:
   - name: stg_customers
     columns:
