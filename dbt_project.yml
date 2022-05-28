@@ -24,3 +24,21 @@ models:
       materialized: table
       staging:
         materialized: view
+
+seeds:
+  jaffle_shop:
+  - name: raw_customers
+    description:
+    docs:
+      show: true
+    config:
+  - name: raw_orders
+    description:
+    docs:
+      show: true
+    config:
+  - name: raw_payments
+    description:
+    docs:
+      show: true
+    config:
