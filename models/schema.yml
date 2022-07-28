@@ -1,13 +1,13 @@
 version: 2
 models:
   - name: customers
-    description: This table has basic information about a customer, as well as some
-        derived facts based on a customer's orders.
+    description: "This table has basic information about a customer, as well as some\
+        \ derived facts based on a customer's orders. \n\nUser_stats is a beast"
     columns:
       - name: customer_id
         description: This is a unique identifier for a customer
       - name: first_name
-        description: Customer's first name. PII.
+        description: Customer's first name. PII. could trace this with column lineage
       - name: last_name
         description: Customer's last name. PII.
       - name: first_order
