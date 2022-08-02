@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: prod
+  - name: dbt_mutton
     tables:
       - name: raw_customers
       - name: raw_orders
